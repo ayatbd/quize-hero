@@ -184,3 +184,8 @@ document.querySelector("#submit").addEventListener("click", () => {
   }, 1500);
   window.scrollTo(0, 0);
 });
+
+// here is blog button page redirect
+function blogButton(){
+  window.location.href='blog.html';
+}
